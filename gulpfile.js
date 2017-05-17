@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
   gutil = require('gulp-util'),
   webserver = require('gulp-webserver');
-
+console.log("Hi");
 gulp.task('js', function() {
   gulp.src('builds/angulardata/js/**/*');
 });
